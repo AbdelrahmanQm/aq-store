@@ -1,0 +1,14 @@
+.cart-box::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f0e6e8;
+}
+
+.cart-box::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.cart-box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #b5838d;
+}

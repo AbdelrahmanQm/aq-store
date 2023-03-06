@@ -1,14 +1,8 @@
 import React from "react";
-import BottomNav from "../../BottomNav/BottomNav";
-import MenuIcon from "../../MenuIcon/MenuIcon";
-import NavBarLinks from "../NavBarLinks/NavBarLinks";
-import NavCartIcon from "../NavCartIcon/NavCartIcon";
-import NavSearchBox from "../NavSearchBox/NavSearchBox";
-import NavSignIn from "../NavSignIn/NavSignIn";
-import WishListIcon from "../WishListIcon/WishListIcon";
-import { useSelector } from "react-redux";
+import BottomNav from "../BottomNav/BottomNav";
 import TopBar from "../TopBar/TopBar";
 import MainNav from "../MainNav/MainNav";
+import { Outlet } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -16,6 +10,7 @@ const NavBar = () => {
       <TopBar />
       <MainNav />
       <BottomNav />
+      <Outlet />
     </div>
   );
 };

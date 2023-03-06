@@ -3,7 +3,7 @@ import React from "react";
 const TopBar = () => {
   return (
     <div className="w-full h-[40px] bg-dark text-lightest  ">
-      <div className="max-w-[1400px] h-[40px] m-auto flex px-4 items-center cursor-default justify-between">
+      <div className="max-w-[1250px] h-[40px] m-auto flex px-6  items-center cursor-default justify-between">
         <div className="flex gap-2 items-center">
           <svg
             className="stroke-lighter icon icon-tabler icon-tabler-headset"

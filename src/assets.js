@@ -1,113 +1,113 @@
 export const navLinks = [
   {
-    name: "Home",
-    link: "#",
-    links: [],
-  },
-  {
     name: "Shop",
-    link: "#",
+    hideSm: false,
+    link: "/shop",
     links: [
       {
         contName: "Categories",
-        contLink: "#",
+        contLink: "/shop",
       },
       {
         contName: "Sale",
-        contLink: "#",
+        contLink: "/shop",
       },
       {
         contName: "Collections",
-        contLink: "#",
+        contLink: "/shop",
       },
       {
         contName: "Brands",
-        contLink: "#",
+        contLink: "/shop",
       },
     ],
   },
 
   {
     name: "New Arrival",
-    link: "#",
+    hideSm: false,
+    link: "/new-arrivals",
     links: [
       {
         contName: "Today",
-        contLink: "#",
+        contLink: "/new-arrivals",
       },
       {
         contName: "This Week",
-        contLink: "#",
+        contLink: "/new-arrivals",
       },
       {
         contName: "This Month",
-        contLink: "#",
+        contLink: "/new-arrivals",
       },
       {
         contName: "This Season",
-        contLink: "#",
+        contLink: "/new-arrivals",
       },
     ],
   },
   {
     name: "Top Sellers",
-    link: "#",
+    hideSm: false,
+    link: "/best-sellers",
     links: [
       {
         contName: "This Week",
-        contLink: "#",
+        contLink: "/best-sellers",
       },
       {
         contName: "This Month",
-        contLink: "#",
+        contLink: "/best-sellers",
       },
       {
         contName: "This Year",
-        contLink: "#",
+        contLink: "/best-sellers",
       },
     ],
   },
   {
     name: "Branches",
-    link: "#",
+    hideSm: false,
+    link: "/about",
     links: [
       {
         contName: "United States",
-        contLink: "#",
+        contLink: "/about",
       },
       {
         contName: "United Kingdom",
-        contLink: "#",
+        contLink: "/about",
       },
       {
         contName: "Egypt",
-        contLink: "#",
+        contLink: "/about",
       },
       {
         contName: "United Arab Emirates",
-        contLink: "#",
+        contLink: "/about",
       },
     ],
   },
   {
     name: "About",
-    link: "#",
+    hideSm: false,
+    link: "/about",
     links: [
       {
         contName: "Our Stores",
-        contLink: "#",
+        contLink: "/about",
       },
       {
         contName: "Our History",
-        contLink: "#",
+        contLink: "/about",
       },
       {
         contName: "Contact Us",
-        contLink: "#",
+        contLink: "/about",
       },
       {
         contName: "Headquarter",
-        contLink: "#",
+        contLink: "/about",
       },
     ],
   },
@@ -115,21 +115,21 @@ export const navLinks = [
 
 export const sliderSlides = [
   {
-    id: "1",
+    id: "0",
     img: "./assets/hero-slider/hero-01.jpg",
     firstText: "Just arrived !",
     secondText: "Winter Collection",
     thirdText: "Don't miss it",
   },
   {
-    id: "2",
+    id: "1",
     img: "./assets/hero-slider/hero-02.jpg",
     firstText: "Complete your look with",
     secondText: "Our shoes",
     thirdText: "Collection",
   },
   {
-    id: "3",
+    id: "2",
     img: "./assets/hero-slider/hero-03.jpg",
     firstText: "Hurry up!",
     secondText: "Winter Sale",
@@ -167,16 +167,16 @@ export const navDepartments = [
     image: "./assets/nav-categories/cat-img-shoes.jpg",
     content: [
       {
-        name: "Classic & Elegant",
-        link: "#",
+        name: "New Collection",
+        link: "Shoes",
       },
       {
-        name: "Trendy & More",
-        link: "#",
+        name: "Sport shoes",
+        link: "Shoes",
       },
       {
-        name: "Casual for School",
-        link: "#",
+        name: "Sneakers collection",
+        link: "Shoes",
       },
     ],
   },
@@ -185,34 +185,34 @@ export const navDepartments = [
     image: "./assets/nav-categories/cat-img-jackets.jpg",
     content: [
       {
-        name: "Classic & Elegant",
-        link: "#",
+        name: "Casual jackets",
+        link: "Jackets",
       },
       {
-        name: "Trendy & More",
-        link: "#",
+        name: "Jeans jackets",
+        link: "Jackets",
       },
       {
-        name: "Casual for School",
-        link: "#",
+        name: "Fashion picks",
+        link: "Jackets",
       },
     ],
   },
   {
-    title: "T-Shirts",
+    title: "T-shirts",
     image: "./assets/nav-categories/cat-img-t-shirts.jpg",
     content: [
       {
-        name: "Classic & Elegant",
-        link: "#",
+        name: "Polo T-shirts",
+        link: "Tshirts",
       },
       {
-        name: "Trendy & More",
-        link: "#",
+        name: "V cut T-shirts",
+        link: "Tshirts",
       },
       {
-        name: "Casual for School",
-        link: "#",
+        name: "Rounded nick",
+        link: "Tshirts",
       },
     ],
   },
@@ -221,16 +221,16 @@ export const navDepartments = [
     image: "./assets/nav-categories/cat-img-pants.jpg",
     content: [
       {
-        name: "Classic & Elegant",
-        link: "#",
+        name: "Sport pants",
+        link: "Pants",
       },
       {
-        name: "Trendy & More",
-        link: "#",
+        name: "Jeans pants",
+        link: "Pants",
       },
       {
-        name: "Casual for School",
-        link: "#",
+        name: "Classic Style",
+        link: "Pants",
       },
     ],
   },
@@ -239,35 +239,126 @@ export const navDepartments = [
     image: "./assets/nav-categories/cat-img-hoodies.jpg",
     content: [
       {
-        name: "Classic & Elegant",
-        link: "#",
+        name: "Zipper Hoodies",
+        link: "Hoodies",
       },
       {
-        name: "Trendy & More",
-        link: "#",
+        name: "Big hooded hoodies",
+        link: "Hoodies",
       },
       {
-        name: "Casual for School",
-        link: "#",
+        name: "Winter collection",
+        link: "Hoodies",
       },
     ],
   },
   {
-    title: "Head Wear",
-    image: "./assets/nav-categories/cat-img-head-wear.jpg",
+    title: "Suits",
+    image: "./assets/nav-categories/cat-img-suits.jpg",
     content: [
       {
-        name: "Classic & Elegant",
-        link: "#",
+        name: "For wedding",
+        link: "Suits",
       },
       {
-        name: "Trendy & More",
-        link: "#",
+        name: "For work",
+        link: "Suits",
       },
       {
-        name: "Casual for School",
-        link: "#",
+        name: "For every day",
+        link: "Suits",
       },
     ],
+  },
+];
+
+export const shopDepartments = [
+  { title: "Shoes", link: "/shop/Shoes" },
+  { title: "Jackets", link: "/shop/Jackets" },
+  { title: "T-Shirts", link: "/shop/Tshirts" },
+  { title: "Pants", link: "/shop/Pants" },
+  { title: "Hoodies", link: "/shop/Hoodies" },
+  { title: "Suits", link: "/shop/Suits" },
+];
+
+export const accountLinks = [
+  { title: "Your account", link: "/about" },
+  { title: "Shipping rates & policies", link: "/about" },
+  { title: "Refund & replacements", link: "/about" },
+  { title: "Order tracking", link: "/about" },
+  { title: "delivery info", link: "/about" },
+  { title: "Taxes & fees", link: "/about" },
+];
+
+export const aboutLinks = [
+  { title: "About company", link: "/about" },
+  { title: "Our team", link: "/about" },
+  { title: "Careers", link: "/about" },
+  { title: "News", link: "/about" },
+];
+
+export const shopCategories = [
+  {
+    id: 1,
+    title: "Shoes",
+    image: "../../../assets/shop/shop-shoes.jpg",
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Tshirts",
+    image: "../../../assets/shop/shop-tshirts.jpg",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Hoodies",
+    image: "../../../assets/shop/shop-hoodies.jpg",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Jackets",
+    image: "../../../assets/shop/shop-jackets.jpg",
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "Pants",
+    image: "../../../assets/shop/shop-pants.jpg",
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "Suits",
+    image: "../../../assets/shop/shop-suits.jpg",
+    link: "#",
+  },
+];
+
+export const langs = [
+  {
+    title: "ReactJs",
+    image: "../../assets/langs/reactjs.png",
+  },
+  {
+    title: "Redux",
+    image: "../../assets/langs/redux.png",
+  },
+  {
+    title: "TailwindCSS",
+    image: "../../assets/langs/tailwind.png",
+  },
+  {
+    title: "NodeJs",
+    image: "../../assets/langs/nodejs.png",
+  },
+  {
+    title: "Mongodb",
+    image: "../../assets/langs/mongodb.png",
+  },
+  {
+    title: "ExpressJs",
+    image: "../../assets/langs/expressjs.png",
   },
 ];
