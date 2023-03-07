@@ -32,17 +32,17 @@ const NavSticky = () => {
   window.addEventListener("scroll", showToTop);
   return (
     <div
-      className={`w-full bg-white z-[1000] h-auto top-0 left-0 right-0 transition-all duration-500 ${
+      className={`w-full bg-white z-[1000] lg:h-[90px] sm:h-[60px] top-0 left-0 right-0 transition-all duration-500 ${
         fixed ? "sticky-nav" : ""
       } `}
     >
       <div className="max-w-[1250px] mx-auto bg-white  z-[1000] w-full  px-6 top-0 left-0 right-0  ">
-        <div className="up-nav flex justify-between items-center gap-4 lg:pb-0 sm:pb-2 lg:pt-4 sm:pt-2 ">
+        <div className="up-nav flex justify-between items-center gap-4 lg:pb-0 sm:pb-0 lg:pt-4 sm:pt-2 ">
           <Link className="" to="/">
             <img
               src="/logo-dark.png"
               alt="AR Store Logo"
-              className="h-full w-full lg:max-h-[55px] sm:max-h-[30px]"
+              className="h-full lg:max-h-[55px] sm:max-h-[30px]"
             />
           </Link>
           <NavSearchBox />
@@ -50,7 +50,7 @@ const NavSticky = () => {
             <div className="lg:block sm:hidden pl-4">
               <WishListIcon />
             </div>
-            <div className="sm:block lg:hidden mr-4">
+            <div className="sm:block lg:hidden mr-2">
               <MenuIcon />
             </div>
             <div onClick={openSignIn}>

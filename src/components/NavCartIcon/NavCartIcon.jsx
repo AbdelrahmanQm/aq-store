@@ -13,7 +13,7 @@ const NavCartIcon = () => {
   return (
     <div className="flex lg:gap-4 sm:gap-0 group sm:flex-col lg:flex-row items-center justify-center relative cursor-pointer ">
       <div className="relative h-full flex justify-center items-center">
-        <ShoppingCart className="lg:bg-lightest w-9 h-9 sm:bg-white sm:stroke-light lg:stroke-[2] sm:stroke-[1.5] lg:stroke-primary lg:p-[5px] sm:p-0 sm:rounded-none lg:rounded-full" />
+        <ShoppingCart className="lg:bg-lightest lg:h-9 lg:w-9 sm:w-8 sm:h-8 sm:bg-white sm:stroke-light lg:stroke-[2] sm:stroke-[1.5] lg:stroke-primary lg:p-[5px] sm:p-0 sm:rounded-none lg:rounded-full" />
 
         <p className="bg-primary text-center text-white rounded-full lg:absolute lg:w-[23px] lg:h-[23px] sm:w-[20px] sm:h-[20px] lg:-top-2.5 lg:-right-2.5 sm:relative text-sm font-semibold flex items-center justify-center">
           {itemsCount < 99 ? itemsCount : 99}
@@ -22,7 +22,7 @@ const NavCartIcon = () => {
       <div className="flex-col  lg:flex">
         <p className="text-xs lg:block sm:hidden">My Cart</p>
         <div className="flex items-center">
-          <p className="text-sm sm:font-normal lg:font-bold">
+          <p className="text-xs sm:font-normal lg:font-bold">
             {subTotal < 999 ? "" : "+"}${subTotal < 999 ? subTotal : 999}.00
           </p>
           <ChevDown className="sm:hidden lg:block h-5 w-5 stroke-press" />
