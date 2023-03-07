@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await (
-        await fetch("http://localhost:3030/fullStoreData")
+        await fetch("https://aq-store-api.onrender.com/fullStoreData")
       ).json();
       dispatch(setProducts(response));
     };
