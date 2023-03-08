@@ -8,7 +8,7 @@ const About = () => {
     <section className="bg-faded">
       <header className="topPart flex lg:flex-row sm:flex-col max-w-[1250px] pt-20 mx-auto px-6 items-center justify-between mb-32">
         <div className="topLeft flex-4 flex flex-col sm:items-center lg:items-start justify-center">
-          <h1 className="text-6xl leading-[1.1] font-semibold pb-10 border-b border-dark mb-10 lg:pr-10 sm:pr-0 lh-2 lg:text-left sm:text-center uppercase">
+          <h1 className="md:text-6xl sm:text-5xl leading-[1.1] font-semibold pb-10 border-b border-dark mb-10 lg:pr-10 sm:pr-0 lh-2 lg:text-left sm:text-center uppercase">
             This
             <br /> Website
             <br /> is a

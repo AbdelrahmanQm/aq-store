@@ -32,7 +32,7 @@ const ProudctPage = () => {
         <div>
           <header className="bg-primary h-28 ">
             <div className="header-content h-28 px-6 flex items-center md:justify-between max-w-[1250px] mx-auto sm:flex-col md:flex-row sm:justify-evenly">
-              <h1 className="text-xl text-faded ">{product.title}</h1>
+              <h1 className="text-xl text-faded pt-2">{product.title}</h1>
               <div className="flex items-center">
                 <Link to="/">
                   <p className="flex items-center gap-1 text-faded text-sm">
@@ -57,7 +57,7 @@ const ProudctPage = () => {
             <div className="bg-primary h-20"></div>
             {/* ==================== Top Body ==================== */}
             <div className="max-w-[1250px] mx-auto px-6">
-              <div className="quickView py-6 relative  top-[-85px] mx-auto h-auto flex flex-col bg-white rounded-lg shadow-md">
+              <div className="quickView py-6 relative  top-[-70px] mx-auto h-auto flex flex-col bg-white rounded-lg shadow-md">
                 <div className="bodyQuick  flex sm:flex-col md:flex-row gap-4 px-6">
                   <div className="images flex justify-end md:w-[60%] sm:w-full flex-col-reverse">
                     <div className="allImages grid  grid-cols-4   items-center justify-center  p-2 gap-4">
@@ -67,7 +67,7 @@ const ProudctPage = () => {
                             <img
                               onClick={useImage}
                               key={i}
-                              className={`border-2 rounded-lg h-full cursor-pointer hover:opacity-100 transition-all 
+                              className={`border-2 rounded-lg mt-2 cursor-pointer hover:opacity-100 transition-all 
                           ${
                             img === image
                               ? "opacity-100 border-primary"
