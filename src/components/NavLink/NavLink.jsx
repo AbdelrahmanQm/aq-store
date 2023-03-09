@@ -53,8 +53,8 @@ const NavLink = ({ item }) => {
       onMouseLeave={hoverOut}
       onClick={hoverOut}
     >
-      <Link
-        to={item.link}
+      <p
+        /* to={item.link} */
         onPointerDown={toggle}
         className={`hover:text-primary sm:h-12 flex items-center transition-all cursor-pointer pl-4 whitespace-nowrap lg:justify-center sm:justify-start lg:flex sm:flex sm:w-full sm:bg-faded lg:bg-white lg:text-base lg:font-medium
           sm:rounded-lg lg:rounded-none  lg:h-10
@@ -70,7 +70,7 @@ const NavLink = ({ item }) => {
         ) : (
           ""
         )}
-      </Link>
+      </p>
 
       {item.links.length > 0 ? (
         <div
@@ -85,14 +85,14 @@ const NavLink = ({ item }) => {
         >
           <ul className="flex flex-col gap-2 text-md  pt-4 lg:text-base ">
             {item.links.map((link) => (
-              <li
-                key={`${link.contName}`}
-                className="hover:text-primary hover:bg-faded px-4 py-2 cursor-pointer"
-              >
-                <Link onPointerDown={toggleMenu} to={link.contLink}>
+              <Link onPointerDown={toggleMenu} to={link.contLink}>
+                <li
+                  key={`${link.contName}`}
+                  className="hover:text-primary hover:bg-faded px-4 py-2 cursor-pointer"
+                >
                   {link.contName}
-                </Link>
-              </li>
+                </li>
+              </Link>
             ))}
           </ul>
         </div>
