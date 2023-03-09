@@ -85,14 +85,14 @@ const NavLink = ({ item }) => {
         >
           <ul className="flex flex-col gap-2 text-md  pt-4 lg:text-base ">
             {item.links.map((link) => (
-              <Link onPointerDown={toggleMenu} to={link.contLink}>
-                <li
+              <li
                   key={`${link.contName}`}
                   className="hover:text-primary hover:bg-faded px-4 py-2 cursor-pointer"
                 >
+              <Link className="w-full h-full inline-block" onPointerDown={toggleMenu} to={link.contLink}>
                   {link.contName}
-                </li>
               </Link>
+                </li>
             ))}
           </ul>
         </div>
